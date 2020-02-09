@@ -1,12 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './App.css';
 
 const Display = ({ headerText, image, footerText }) => (
-  <>
-    <p>{ headerText }</p>
+  <div className={ styles.Display }>
+
     <img src={ image } />
-    <p>{ footerText }</p>
-  </>
+    <p className={ styles.headerText }>{ headerText }</p>
+    <p className={ styles.footerText }>{ footerText }</p>
+
+  </div>
 );
 
 Display.propTypes = {
