@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './App.css';
+import styles from '../App.css';
 
 const Display = ({ headerText, image, footerText }) => (
   <div className={ styles.Display }>

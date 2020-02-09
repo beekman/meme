@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './App.css';
+import styles from '../App.css';
 
 const TextSelector = ({ headerText, image, footerText, onChange }) => (
   <div className={ styles.TextSelector }>
@@ -14,7 +14,7 @@ TextSelector.propTypes = {
   headerText: PropTypes.string.isRequired,
   footerText: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
-  onChange: PropTypes.func.isRequired
+  onChange: PropTypes.func
 };
 
 export default TextSelector;
