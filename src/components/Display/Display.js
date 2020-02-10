@@ -15,8 +15,7 @@ const Display = ({ headerText, image, footerText }) => (
 Display.propTypes = {
   headerText: PropTypes.string.isRequired,
   footerText: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
-  onChange: PropTypes.func.isRequired
+  image: PropTypes.string.isRequired
 };
 
 export default Display;
