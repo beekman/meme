@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display component matches a snapshot 1`] = `
+<div
+  className="Display"
+>
+  <img
+    src="https://imgflip.com/s/meme/Futurama-Fry.jpg"
+  />
+  <p
+    className="headerText"
+  >
+    Fry Day
+  </p>
+  <p
+    className="footerText"
+  >
+    Friday
+  </p>
+</div>
+`;

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextSelector component renders TextSelector 1`] = `
+<div
+  className="TextSelector"
+>
+  <label>
+    Image: 
+    <input
+      name="image"
+      type="text"
+      value="https://imgflip.com/s/meme/Futurama-Fry.jpg"
+    />
+  </label>
+  <label>
+    Header Text: 
+    <input
+      name="headerText"
+      type="text"
+      value="Hello"
+    />
+  </label>
+  <label>
+    Footer Text: 
+    <input
+      name="footerText"
+      type="text"
+      value="Goodbye"
+    />
+  </label>
+</div>
+`;
